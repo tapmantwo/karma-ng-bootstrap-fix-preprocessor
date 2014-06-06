@@ -1,0 +1,22 @@
+{
+  "name": "karma-ng-bootstrap-fix-preprocessor",
+  "version": "0.1.0",
+  "description": "preprocessor that adds ng-app statements for manually bootstrapped angular pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tapmantwo/karma-ng-bootstrap-fix-preprocessor.git"
+  },
+  "keywords": [
+    "karma",
+    "angular",
+    "bootstrap",
+    "ng-app",
+    "preprocessor"
+  ],
+  "author": "Richard Tappenden <tapmantwo@gmail.com> (http://github.com/tapmantwo)",
+  "license": "ISC"
+}
