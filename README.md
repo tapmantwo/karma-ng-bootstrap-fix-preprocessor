@@ -30,3 +30,9 @@ To set it up, modify your karma config file to include this preprocessor for you
 ```
  preprocessors: { "**/*.html": ['ngbootstrapfix'] },
 ```
+
+Note
+====
+This only works if you are serving the files through Karma.  If you are proxying them, they do not run through the pre-processor.
+
+However, have no fear! I have a fork of ng-scenario that effectively does something similar and enables the tests to run. https://github.com/tapmantwo/karma-ng-scenario  
